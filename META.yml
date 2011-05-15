@@ -1,0 +1,36 @@
+---
+abstract: 'simple Gearman worker interface'
+author:
+  - 'n0body <n0body@thisaintnews.com>'
+build_requires:
+  Cwd: 0
+  Exporter: 0
+  ExtUtils::MakeMaker: 6.42
+  File::Basename: 0
+  FindBin: 0
+  Gearman::Client: 0
+  IO::Socket::INET: 0
+  List::Util: 0
+  POSIX: 0
+  Test::More: 0
+  constant: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: GearmanX::Simple::Worker
+name: GearmanX-Simple-Worker
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  App::Daemon: 0
+  Gearman::Worker: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.001
