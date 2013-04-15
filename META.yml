@@ -5,7 +5,7 @@ author:
 build_requires:
   Cwd: 0
   Exporter: 0
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
   File::Basename: 0
   FindBin: 0
   Gearman::Client: 0
@@ -15,9 +15,10 @@ build_requires:
   Test::More: 0
   constant: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
 distribution_type: module
-generated_by: 'Module::Install version 1.01'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -33,4 +34,4 @@ requires:
   Gearman::Worker: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.001
+version: 0.002
